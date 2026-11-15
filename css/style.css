@@ -1,0 +1,101 @@
+:root {
+    --verde-mata: #1F4D36;
+    --dourado-colheita: #E3A73A;
+    --terra: #7A4B32;
+    --papel: #F6F8F1;
+    --grafite: #22261F;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    color: var(--grafite);
+    background-color: var(--papel);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    color: var(--verde-mata);
+}
+.carimbo {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px dashed var(--terra);
+    background: white;
+    color: var(--terra);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    transform: rotate(-7deg);
+
+}
+
+
+.card-reaproveita  {
+    background: white;
+    border-top: 6px solid var(--verde-mata);
+    border-radius: 4px;
+    padding: 1.6rem;
+    height: 100%;
+    box-shadow: 0 2px 10px rgba(31, 77, 54, 0.08);
+    
+}
+
+.card-reaproveita .numero {
+    font-family: monospace;
+    color: var(--dourado-colheita);
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.3rem;
+    
+}
+
+footer {
+    background-color: var(--verde-mata);
+    color: var(--papel);
+}
+
+footer a {
+    color: var(--papel);
+    
+}
+
+footer hr {
+    border-color: rgba(255, 255, 255, 0.2);
+    opacity: 1;
+    
+}
+.navbar {
+    background-color: var(--verde-mata);
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: var(--papel);
+    font-weight: 600;
+   
+}
+
+.navbar .nav-link.active {
+    color: var(--dourado-colheita);
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    transition: 0.5s ease-in-out;
+    
+}
+.navbar .navbar-brand.active {
+    color: var(--dourado-colheita);
+    
+}
+
+.navbar .nav-link:hover {
+    color: var(--dourado-colheita);
+    transition: 0.3s ease-in-out;
+    
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Aproveita+</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand active" href="index.html">Aproveita+</a>
+            <!-- Botão do menu some em telas grandes e aparece só no celular -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu de navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu de navegação implementar funcionalidades com javascript -->
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dicas.html">Dicas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <main>
+        <!-- Hero: primeiro contato com o projeto - título, resumo e botões de ação -->
+        <section class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-8">           
+                <p class="text-uppercase fw-bold text-success mb-2">ODS 12 · Consumo e Produção Responsáveis</p>
+                <h1 class="display-4 fw-bold">Reduza o desperdício. Aproveite Mais cada alimento.</h1>
+                <p class="fs-5 mt-3">Dicas simples e práticas para jovens, estudantes e famílias consumirem com mais consciência e darem um novo destino ao que sobra na cozinha.</p>
+                <!-- Um botão leva pras dicas, o outro pra página Sobre -->
+                <div class="d-flex gap-3 mt-4">
+                    <a href="dicas.html" class="btn btn-success btn-lg">Ver as dicas</a>
+                    <a href="sobre.html" class="btn btn-outline-success btn-lg">Conhecer o projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Contexto do problema: dado da FAO e explicando o por que o projeto existe -->
+    <section class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <p class="text-uppercase fw-bold text-success mb-2">O problema</p>
+                <h2>Desperdiçar comida também desperdiça água, terra e trabalho</h2>
+                <p>Segundo estimativas da FAO (Organização das Nações Unidas para Agricultura e Alimentação), cerca de um terço de todo o alimento produzido no mundo se perde ou é desperdiçado. Grande parte disso acontece dentro de casa — por falta de planejamento das compras, armazenamento inadequado ou desconhecimento de como aproveitar cascas, talos e sobras.</p>
+                <p>O <strong>Aproveita+</strong> nasce como resposta a esse cenário: uma aplicação educativa que reúne informações e dicas práticas para reduzir o desperdício de alimentos e incentivar um consumo mais responsável, alinhado ao <strong>ODS 12</strong> da Agenda 2030 da ONU.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Público-alvo em 3 cards: jovens, estudantes e famílias -->
+    <section class="container py-5">
+    <p class="text-uppercase fw-bold text-success mb-2">Para quem é</p>    
+    <h2 class="mb-4">Feito para quem quer mudar hábitos no dia a dia</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card-reaproveita">
+                    <p class="numero">01</p>
+                    <h3>Jovens</h3>
+                    <p>Que estão começando a cuidar da própria alimentação e das próprias compras.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-reaproveita">
+                    <p class="numero">02</p>
+                    <h3>Estudantes</h3>
+                    <p>Que dividem casa ou moradia estudantil e precisam otimizar tempo e recursos.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-reaproveita">
+                    <p class="numero">03</p>
+                    <h3>Famílias</h3>
+                    <p>Que buscam economizar e reduzir o desperdício na rotina de compras e refeições.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Atalhos pras outras páginas do site -->
+    <section class="container py-5">
+        <p class="text-uppercase fw-bold text-success mb-2">Explore o Aproveita+</p>
+        <h2 class="mb-4">O que você encontra por aqui</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card-reaproveita">
+                    <h3>Sobre o projeto</h3>
+                    <p>Entenda a ODS 12 e o problema do desperdício de alimentos.</p>
+                    <a href="sobre.html">Conhecer &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-reaproveita">
+                    <h3>Dicas práticas</h3>
+                    <p>Ideias simples para aproveitar melhor o que já está na sua cozinha.</p>
+                    <a href="dicas.html">Ver dicas &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-reaproveita">
+                    <h3>Fale com a gente</h3>
+                    <p>Envie dúvidas, sugestões ou sua própria dica de aproveitamento.</p>
+                    <a href="contato.html">Entrar em contato &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+<!-- Rodapé com resumo do projeto e referência à ODS 12 -->
+    <footer>
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-6">
+                    <p class="fw-bold fs-4">Aproveita+</p>
+                    <p>Projeto sobre consumo consciente, desenvolvido para a disciplina de Desenvolvimento Web — UEMA.</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="fw-bold text-uppercase">ODS 12</p>
+                    <p>Consumo e Produção Responsáveis — parte da Agenda 2030 da ONU.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
