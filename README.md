@@ -20,7 +20,7 @@ Um site com 4 páginas (**Início, Sobre, Dicas e Contato**) para jovens, estuda
 - **Cuidados de acessibilidade**
 - **Animações** ao rolar a página
 
-## 🛠️ Tecnologias
+## Tecnologias
 - HTML5
 - CSS3
 - Bootstrap 5
